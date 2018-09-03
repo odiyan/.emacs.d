@@ -1,0 +1,5 @@
+uname -a
+cd /ssh:shyam@westhilltech.solutions
+cd /ssh:shyam@westhilltech.solutions:~
+ls
+cd

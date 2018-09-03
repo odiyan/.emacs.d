@@ -26,7 +26,8 @@
  '(custom-enabled-themes nil)
  '(package-selected-packages
    (quote
-    (elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode))))
+    (flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
+ '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -52,5 +53,23 @@
 (desktop-save-mode 1)
 (require 'evil)
 (evil-mode 1)
+(define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-visual-state-map (kbd "C-u") 'evil-scroll-up)
 (package-initialize)
 (elpy-enable)
+(require 'ess-site)
+(global-set-key (kbd "C-x g") 'magit-status)
+;;(with-eval-after-load 'python
+;;  (defun python-shell-completion-native-try ()
+;;    "Return non-nil if can trigger native completion."
+;;    (let ((python-shell-completion-native-enable t)
+;;          (python-shell-completion-native-output-timeout
+;;           python-shell-completion-native-try-output-timeout))
+;;      (python-shell-completion-native-get-completions
+;;       (get-buffer-process (current-buffer))
+;;       nil "_"))))
+
+(setq python-shell-completion-native-enable nil)
+;;(require 'vimish-fold)
+;;(vimish-fold-global-mode 1)
+(evil-vimish-fold-mode 1)
