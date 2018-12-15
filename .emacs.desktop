@@ -2,11 +2,16 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
+<<<<<<< HEAD
 ;; Created Sun Sep 23 23:56:05 2018
+=======
+;; Created Mon Sep  3 10:01:12 2018
+>>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
 ;; Desktop file format version 208
-;; Emacs version 25.2.2
+;; Emacs version 26.1
 
 ;; Global section:
+<<<<<<< HEAD
 (setq desktop-saved-frameset [frameset 1 (23463 55997 594430 46000) (desktop . "208") "shyam@shyam" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (frameset--id . "7FD8-154C-75BF-12A4") (frameset--mini t . t) (height . 36) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 144) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 36) (min-pixel-width-safe . 18)) vc (pixel-width . 752) (pixel-height . 630) (total-width . 83) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 752) (pixel-height . 306) (total-width . 83) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "amrutha.txt" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 2461) (start . 2074))) (leaf (last . t) (pixel-width . 752) (pixel-height . 324) (total-width . 83) (total-height . 18) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 45) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
@@ -35,13 +40,44 @@
   'markdown-mode
   '(undo-tree-mode)
   120
+=======
+(setq desktop-saved-frameset [frameset 1 (23436 47376 893449 885000) (desktop . "208") "shyam@NAV-71" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 61) (width . 204) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "FA1F-00D6-F117-AF79") (frameset--mini t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 60) (total-width . 204) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 60) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3078) (start . 1324))) (leaf (last . t) (pixel-width . 102) (pixel-height . 60) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Buffer List*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("(" "re" "put" "elpy " "elpy" "elp" "elpty" "elpyy" "python" "e" "el" "markd" "e"))
+(setq regexp-search-ring '("\\<httpGetAsync\\>"))
+(setq register-alist '((113) (48 . "\n")))
+(setq file-name-history '("~/.emacs.d/" "~/project/code/practice/test.org" "~/.emacs.d/" "~/.emacs.d/init.el" "~/project/code/practice/fetch.py" "~/project/code/practice/" "~/project/code/practice/fetch.py" "~/project/code/practice/" "~/project/code/practice/#fetch.py#" "~/project/code/practice/fetch.py" "~/.emacs.d/init.el" "~/project/code/practice/" "~/project/code/practice/sqlalchemy-tutorial.py" "~/project/code/practise" "~/project/code/sqlalchemy-tutorial.py" "~/project/test.py" "~/project" "~/.emacs.d/init.el" "~/Documents/xship-app/MSC PERFORMANCE/" "~/Documents/" "~/r-programs/test.R" "~/r-programs/" "~/r-programs/test.r" "~/r-programs/" "~/.emacs.d/init.el" "~/r-programs/" "~/" "~/r-programs/" "~/r-programs" "~/.emacs.d/init.el" "~/f/Udemy/api/section-5/code/create_tables.py" "~/f/Udemy/api/section-5" "~/template.jinja2" "~/f/Udemy/api/section-4/code/" "~/e/nibblecomm/Basic_Flask_Application/main.py" "~/e/nibblecomm/Basic_Flask_Application/new_main.py" "~/e/nibblecomm/Basic_Flask_Application/" "~/e/work_assignment/modification/project/security.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/app.py" "~/e/work_assignment/modification/project/app.py" "~/e/work_assignment/project/" "~/e/work_assignment/project/app.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/templates/index.html" "~/f/Udemy/api/project/templates" "~/.emacs" "~/f/Udemy/api/" "~/f/Udemy/api/project/app.py" "~/f/Udemy/api/" "~/Dropbox/Writing/words.md" "~/.emacs" "~/f/Python/Flask/flask-mega/flaskenv/bin/" "~/.emacs" "~/f/Python/Flask/flask-mega/project/" "~/Dropbox/Writing/words.txt" "~/f/Python/Flask/flask-mega/project/" "~/f/Python/Flask/flask-mega/" "~/f/westhill-website/project/src/config.py" "~/f/westhill-website/project/src/app.py" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/westhill-website/project/src/" "~/f/westhill-website/project/src/templates/contact.html" "~/f/Python/Flask/flask-mega/project/app/templates/login.html" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/app/" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/config.py" "~/f/Python/Flask/flask-mega/project/app/routes.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/templates/index.html" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/e/work/rentecon/project/app/models" "~/e/work/rentecon/project/app/models.py" "~/.emacs" "~/.emacs.d/init.el" "~/.emacs" "~/e/work/rentecon/project/app/templates/index.html" "~/e/work/rentecon/project/app/templates" "~/e/work/rentecon/project/rentecon.py" "~/e/work/rentecon/project/app/routes.py" "~/e/work/rentecon/project/app/__init__.py" "~/f/Coursera/programming-languages/week-7/ruby_intro.rb" "~/f/Coursera/programming-languages/week-7" "~/Dropbox/Writing/advice.md"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/shyam/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode undo-tree-mode evil-vimish-fold-mode)
+  3078
+  '(3544 nil)
+  nil
+  nil
+  '((buffer-display-time 23436 47291 949365 446000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
+  '((mark-ring (3517 3514 3489 3489 1 1))))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(evil-vimish-fold-mode)
+  725
+>>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
   '(nil nil)
-  nil
-  nil
-  '((tab-width . 4) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  t
+  '("/home/shyam/.emacs.d/")
+  '((buffer-display-time 23436 46351 368313 656000) (overwrite-mode))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
+<<<<<<< HEAD
   "/home/shyam/Dropbox/Writing/advice.md"
   "advice.md"
   'markdown-mode
@@ -64,4 +100,40 @@
   nil
   '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
   '((mark-ring (2629 2604 2603 2545 2603 2603 2603 2603 2603 4453 2603 2603 2603))))
+=======
+  "/home/shyam/project/code/practice/fetch.py"
+  "fetch.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode outline-minor-mode evil-vimish-fold-mode)
+  320
+  '(896 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23436 46347 85120 571000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (877 744 563 393 227))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/sqlalchemy-tutorial.py"
+  "sqlalchemy-tutorial.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode auto-revert-mode)
+  2847
+  '(2847 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23436 45539 699595 41000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2847 2847 2702 2847 2844 2285 2864 760 760 2005 759 759 741 845 2864 1292))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/test.org"
+  "test.org"
+  'org-mode
+  '(undo-tree-mode evil-vimish-fold-mode)
+  50
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23436 40286 801602 795000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (1 1))))
+>>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
 
