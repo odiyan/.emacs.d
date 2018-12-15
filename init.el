@@ -52,5 +52,7 @@
 (desktop-save-mode 1)
 (require 'evil)
 (evil-mode 1)
+(define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-visual-state-map (kbd "C-u") 'evil-scroll-up)
 (package-initialize)
 (elpy-enable)
