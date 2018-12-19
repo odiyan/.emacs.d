@@ -23,10 +23,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes nil)
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(custom-enabled-themes (quote (wheatgrass)))
  '(package-selected-packages
    (quote
-    (flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
+    (xref-js2 js2-refactor js2-mode counsel flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -38,6 +42,8 @@
  '(custom-face-tag ((t (:foreground "brightblack"))))
  '(dired-directory ((t (:foreground "white"))))
  '(evil-ex-lazy-highlight ((t (:background "black" :foreground "brightwhite"))))
+ '(flycheck-warning ((t (:inherit warning :underline t))))
+ '(flymake-error ((t (:foreground "brightyellow"))))
  '(font-lock-comment-delimiter-face ((t (:inherit default))))
  '(font-lock-comment-face ((t (:foreground "brightblue"))))
  '(font-lock-function-name-face ((t (:foreground "brightred"))))
@@ -49,7 +55,8 @@
  '(minibuffer-prompt ((t (:foreground "brightblue"))))
  '(racket-keyword-argument-face ((t (:foreground "brightyellow"))))
  '(racket-logger-config-face ((t (:inherit font-lock-comment-face :foreground "brightmagenta"))))
- '(region ((t (:background "lightgoldenrod2" :foreground "brightred" :underline nil)))))
+ '(region ((t (:background "lightgoldenrod2" :foreground "brightred" :underline nil))))
+ '(vimish-fold-overlay ((t (:background "white")))))
 (desktop-save-mode 1)
 (require 'evil)
 (evil-mode 1)
@@ -73,3 +80,35 @@
 ;;(require 'vimish-fold)
 ;;(vimish-fold-global-mode 1)
 (evil-vimish-fold-mode 1)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(setq ivy-count-format "(%d/%d) ")
+(require 'js2-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+
+;; Better imenu
+(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+(require 'js2-refactor)
+(require 'xref-js2)
+
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
+(js2r-add-keybindings-with-prefix "C-c C-r")
+(define-key js2-mode-map (kbd "C-k") #'js2r-kill)
+
+;; js-mode (which js2 is based on) binds "M-." which conflicts with xref, so
+;; unbind it.
+(define-key js-mode-map (kbd "M-.") nil)
+
+(add-hook 'js2-mode-hook (lambda ()
+  (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
+`(add-hook 'auto-save-hook 'org-save-all-org-buffers)`
+(setq auto-save-file-name-transforms
+  `((".*" "~/.emacs-saves/" t)))
+
+;; set maximum indentation for description lists
+(setq org-list-description-max-indent 5)
+
+;; prevent demoting heading also shifting text inside sections
+(setq org-adapt-indentation nil)
+

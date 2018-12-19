@@ -3,3 +3,7 @@ cd /ssh:shyam@westhilltech.solutions
 cd /ssh:shyam@westhilltech.solutions:~
 ls
 cd
+cd 
+ssh root@45.33.56.117
+ssh root@45.33.56.117
+(+ 1 3)
