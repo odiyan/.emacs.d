@@ -2,138 +2,498 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-<<<<<<< HEAD
-;; Created Sun Sep 23 23:56:05 2018
-=======
-;; Created Mon Sep  3 10:01:12 2018
->>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
+;; Created Tue May 14 12:19:16 2019
 ;; Desktop file format version 208
-;; Emacs version 26.1
+;; Emacs version 26.2
 
 ;; Global section:
-<<<<<<< HEAD
-(setq desktop-saved-frameset [frameset 1 (23463 55997 594430 46000) (desktop . "208") "shyam@shyam" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (frameset--id . "7FD8-154C-75BF-12A4") (frameset--mini t . t) (height . 36) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 144) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 36) (min-pixel-width-safe . 18)) vc (pixel-width . 752) (pixel-height . 630) (total-width . 83) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 752) (pixel-height . 306) (total-width . 83) (total-height . 17) (normal-height . 0.5) (normal-width . 1.0) (buffer "amrutha.txt" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 2461) (start . 2074))) (leaf (last . t) (pixel-width . 752) (pixel-height . 324) (total-width . 83) (total-height . 18) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 45) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23770 25836 12943 213000) (desktop . "208") "shyam@NAV-71" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "green") (cursor-color . "thistle") (background-color . "black") (font . "tty") (height . 61) (width . 204) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "B993-7DEE-8F9C-4FF5") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 204) (pixel-height . 60) (total-width . 204) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1926) (start . 1360))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("put" "re" "put" "elpy " "elpy" "elp" "elpty" "elpyy" "python" "e" "el" "markd" "e"))
-(setq regexp-search-ring '("\\<\n\\>" "\\<httpGetAsync\\>"))
-(setq register-alist '((108 . "lll") (48 . "try:\n                Item.insert(updated_item)\n            except:\n                return {'message': 'An error occurred on inserting the item'}, 500\n")))
-(setq file-name-history '("~/.emacs.d/init.el" "~/f/Udemy/api/section-5/code/item.py" "~/f/Udemy/api/section-5/code/create_tables.py" "~/f/Udemy/api/section-5" "~/template.jinja2" "~/f/Udemy/api/section-4/code/" "~/e/nibblecomm/Basic_Flask_Application/main.py" "~/e/nibblecomm/Basic_Flask_Application/new_main.py" "~/e/nibblecomm/Basic_Flask_Application/" "~/e/work_assignment/modification/project/security.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/app.py" "~/e/work_assignment/modification/project/app.py" "~/e/work_assignment/project/" "~/e/work_assignment/project/app.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/templates/index.html" "~/f/Udemy/api/project/templates" "~/.emacs" "~/f/Udemy/api/" "~/f/Udemy/api/project/app.py" "~/f/Udemy/api/" "~/Dropbox/Writing/words.md" "~/.emacs" "~/f/Python/Flask/flask-mega/flaskenv/bin/" "~/.emacs" "~/f/Python/Flask/flask-mega/project/" "~/Dropbox/Writing/words.txt" "~/f/Python/Flask/flask-mega/project/" "~/f/Python/Flask/flask-mega/" "~/f/westhill-website/project/src/config.py" "~/f/westhill-website/project/src/app.py" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/westhill-website/project/src/" "~/f/westhill-website/project/src/templates/contact.html" "~/f/Python/Flask/flask-mega/project/app/templates/login.html" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/app/" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/config.py" "~/f/Python/Flask/flask-mega/project/app/routes.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/templates/index.html" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/e/work/rentecon/project/app/models" "~/e/work/rentecon/project/app/models.py" "~/.emacs" "~/.emacs.d/init.el" "~/.emacs" "~/e/work/rentecon/project/app/templates/index.html" "~/e/work/rentecon/project/app/templates" "~/e/work/rentecon/project/rentecon.py" "~/e/work/rentecon/project/app/routes.py" "~/e/work/rentecon/project/app/__init__.py" "~/f/Coursera/programming-languages/week-7/ruby_intro.rb" "~/f/Coursera/programming-languages/week-7" "~/Dropbox/Writing/advice.md" "~/Dropbox/Writing/gass/tunnel.md" "~/Dropbox/Writing/gass/tunnel.txt" "~/Dropbox/Writing/June18/amrutha.txt"))
-
-;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/home/shyam/Dropbox/Writing/June18/amrutha.txt"
-  "amrutha.txt"
-  'text-mode
-  '(visual-line-mode undo-tree-mode)
-  2461
-  '(3742 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (2861 3715 3743 3743 1173))))
-
-(desktop-create-buffer 208
-  "/home/shyam/Dropbox/Writing/words.md"
-  "words.md"
-  'markdown-mode
-  '(undo-tree-mode)
-  120
-=======
-(setq desktop-saved-frameset [frameset 1 (23436 47376 893449 885000) (desktop . "208") "shyam@NAV-71" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 61) (width . 204) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "FA1F-00D6-F117-AF79") (frameset--mini t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 60) (total-width . 204) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 60) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3078) (start . 1324))) (leaf (last . t) (pixel-width . 102) (pixel-height . 60) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Buffer List*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
-(setq desktop-missing-file-warning nil)
-(setq tags-file-name nil)
-(setq tags-table-list nil)
-(setq search-ring '("(" "re" "put" "elpy " "elpy" "elp" "elpty" "elpyy" "python" "e" "el" "markd" "e"))
-(setq regexp-search-ring '("\\<httpGetAsync\\>"))
-(setq register-alist '((113) (48 . "\n")))
-(setq file-name-history '("~/.emacs.d/" "~/project/code/practice/test.org" "~/.emacs.d/" "~/.emacs.d/init.el" "~/project/code/practice/fetch.py" "~/project/code/practice/" "~/project/code/practice/fetch.py" "~/project/code/practice/" "~/project/code/practice/#fetch.py#" "~/project/code/practice/fetch.py" "~/.emacs.d/init.el" "~/project/code/practice/" "~/project/code/practice/sqlalchemy-tutorial.py" "~/project/code/practise" "~/project/code/sqlalchemy-tutorial.py" "~/project/test.py" "~/project" "~/.emacs.d/init.el" "~/Documents/xship-app/MSC PERFORMANCE/" "~/Documents/" "~/r-programs/test.R" "~/r-programs/" "~/r-programs/test.r" "~/r-programs/" "~/.emacs.d/init.el" "~/r-programs/" "~/" "~/r-programs/" "~/r-programs" "~/.emacs.d/init.el" "~/f/Udemy/api/section-5/code/create_tables.py" "~/f/Udemy/api/section-5" "~/template.jinja2" "~/f/Udemy/api/section-4/code/" "~/e/nibblecomm/Basic_Flask_Application/main.py" "~/e/nibblecomm/Basic_Flask_Application/new_main.py" "~/e/nibblecomm/Basic_Flask_Application/" "~/e/work_assignment/modification/project/security.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/app.py" "~/e/work_assignment/modification/project/app.py" "~/e/work_assignment/project/" "~/e/work_assignment/project/app.py" "~/f/Udemy/api/section-4/code/user.py" "~/f/Udemy/api/section-4/code/security.py" "~/f/Udemy/api/section-4/code/app.py" "~/f/Udemy/api/project/templates/index.html" "~/f/Udemy/api/project/templates" "~/.emacs" "~/f/Udemy/api/" "~/f/Udemy/api/project/app.py" "~/f/Udemy/api/" "~/Dropbox/Writing/words.md" "~/.emacs" "~/f/Python/Flask/flask-mega/flaskenv/bin/" "~/.emacs" "~/f/Python/Flask/flask-mega/project/" "~/Dropbox/Writing/words.txt" "~/f/Python/Flask/flask-mega/project/" "~/f/Python/Flask/flask-mega/" "~/f/westhill-website/project/src/config.py" "~/f/westhill-website/project/src/app.py" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/westhill-website/project/src/templates/contact.html" "~/f/westhill-website/project/src/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/app/models.py" "~/f/westhill-website/project/src/" "~/f/westhill-website/project/src/templates/contact.html" "~/f/Python/Flask/flask-mega/project/app/templates/login.html" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/app/" "~/f/Python/Flask/flask-mega/project/app/forms.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/config.py" "~/f/Python/Flask/flask-mega/project/app/routes.py" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/f/Python/Flask/flask-mega/project/app/templates/base.html" "~/f/Python/Flask/flask-mega/project/app/templates/index.html" "~/f/Python/Flask/flask-mega/project/app/__init__.py" "~/f/Python/Flask/flask-mega/project/microblog.py" "~/e/work/rentecon/project/app/models" "~/e/work/rentecon/project/app/models.py" "~/.emacs" "~/.emacs.d/init.el" "~/.emacs" "~/e/work/rentecon/project/app/templates/index.html" "~/e/work/rentecon/project/app/templates" "~/e/work/rentecon/project/rentecon.py" "~/e/work/rentecon/project/app/routes.py" "~/e/work/rentecon/project/app/__init__.py" "~/f/Coursera/programming-languages/week-7/ruby_intro.rb" "~/f/Coursera/programming-languages/week-7" "~/Dropbox/Writing/advice.md"))
+(setq search-ring '("game" "random" "box" "active" "dice" "map_dic" "map_di" "background" "jjjjjjjjjjjjjjjjjjjjjjjjjjj" "background" "default" "background" "count"))
+(setq regexp-search-ring '("\\<,\\>" "\\<a\\>" "rowcoun" "update" "VEG"))
+(setq register-alist '((119) (113) (48 . "\n            update_dict[str(tablename.name)] = result\n\n            j = tablename.join(vessel, tablename.c.idvessel == vessel.c.idvessel)\n\n            vdm_id = select([vessel.c.vessel_id]).select_from(j)\n\n            vdm_id = conn.execute(vdm_id).scalar()\n            update_dict['id_vessel'] = vdm_id")))
+(setq file-name-history '("/home/shyam/.emacs.d/init.el" "/home/shyam/Documents/notes/server-security.org" "/home/shyam/Documents/notes/" "/home/shyam/project/vdm-api/code/db_api.py" "/home/shyam/project/vdm-api/code/data_mapping.py" "/home/shyam/main-project/" "/home/shyam/project/vdm-coefficient-api/vdm-env/" "/home/shyam/project/vdm-coefficient-api/code/analytics-api/run.py" "/home/shyam/project/vdm-coefficient-api/code/analytics-api/resources.py" "/home/shyam/project/vdm-coefficient-api/" "/home/shyam/project/code/" "/home/shyam/project/code/vdm_api/" "/home/shyam/project/vdm-coefficient-api/code/coefficient-api.py" "/home/shyam/experiments/build-lisp/hello_world.c" "/home/shyam/experiments/build-lisp" "/home/shyam/project/code/vdm_api/db_api.py" "/home/shyam/project/vdm-coefficient-api/code/api-script.py" "/home/shyam/project/vdm-coefficient-api/api-script.py" "/home/shyam/project/vdm-coefficient-apu" "/home/shyam/project/code/practice/queue-implementation.py" "/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/style.css" "/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/app.js" "/home/shyam/project/code/practice/javascript-practice/test.js" "/home/shyam/course/javascript/" "/home/shyam/course/javascript/complete-javascript-course/3-how-JS-works/starter/index.html" "/home/shyam/course/javascript/complete-javascript-course/3-how-JS-works/starter/script.js" "/home/shyam/experiments/tkinter/banas.py" "/home/shyam/experiments/tkinter" "/home/shyam/course/javascript/complete-javascript-course/2-JS-basics/starter/script.js" "/home/shyam/.emacs.d/" "/home/shyam/course/javascript/complete-javascript-course/" "/home/shyam/course/javascript/complete-javascript-course/2-JS-basics/starter/index.html" "/home/shyam/project/code/practice/javascript-practice/first.js" "/home/shyam/project/code/practice/update-script-msc/update-gid.py" "/home/shyam/project/code/practice/update-gid.py" "/home/shyam/project/code/practice/db_script.py" "/home/shyam/project/code/practice/db_cleanup.py" "/home/shyam/project/code/vdm_api/data_mapping.py" "/home/shyam/project/code/practice/javascript-practice/" "/home/shyam/project/code/practice/javascript-practice/function_variable_passing_test.js" "/home/shyam/project/code/practice/function_variable_passing_test.py" "/home/shyam/project/code/practice/python_function_variable_passing_test.py" "/home/shyam/sed_test" "/home/shyam/sed_script" "/home/shyam/project/code/practice/javascript-practice/debug-test.js" "/home/shyam/project/code/vdm_api/db_api_final.py" "/home/shyam/project/code/practice/" "/home/shyam/project/code/practice/javascript-practice/practice9.html" "/home/shyam/project/code/practice/javascript-practice/practice8.html" "/home/shyam/project/code/practice/javascript-practice/practice.html" "/home/shyam/project/code/practice/javascript-practice/practice7.html" "/home/shyam/project/" "/home/shyam/test.md" "/home/shyam/supr-csv.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
   "/home/shyam/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(eldoc-mode undo-tree-mode evil-vimish-fold-mode)
-  3078
-  '(3544 nil)
-  nil
-  nil
-  '((buffer-display-time 23436 47291 949365 446000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
-  '((mark-ring (3517 3514 3489 3489 1 1))))
-
-(desktop-create-buffer 208
-  nil
-  ".emacs.d"
-  'dired-mode
-  '(evil-vimish-fold-mode)
-  725
->>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
+  '(eldoc-mode undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  1926
   '(nil nil)
-  t
-  '("/home/shyam/.emacs.d/")
-  '((buffer-display-time 23436 46351 368313 656000) (overwrite-mode))
+  nil
+  nil
+  '((buffer-display-time 23770 25738 853427 203000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-<<<<<<< HEAD
-  "/home/shyam/Dropbox/Writing/advice.md"
-  "advice.md"
-  'markdown-mode
-  '(visual-line-mode undo-tree-mode)
-  581
-  '(582 t)
-  nil
-  nil
-  '((tab-width . 4) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (583))))
-
-(desktop-create-buffer 208
-  "/home/shyam/Dropbox/Writing/gass/tunnel.md"
-  "tunnel.md"
-  'markdown-mode
-  '(visual-line-mode undo-tree-mode)
-  4184
-  '(2604 nil)
-  nil
-  nil
-  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (2629 2604 2603 2545 2603 2603 2603 2603 2603 4453 2603 2603 2603))))
-=======
-  "/home/shyam/project/code/practice/fetch.py"
-  "fetch.py"
+  "/home/shyam/project/vdm-coefficient-api/code/analytics-api/run.py"
+  "run.py"
   'python-mode
-  '(eldoc-mode undo-tree-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode outline-minor-mode evil-vimish-fold-mode)
-  320
-  '(896 nil)
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  353
+  '(353 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23436 46347 85120 571000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (877 744 563 393 227))))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23770 25724 470968 279000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (474 474 474 330 474 426 360 330 330 264 264 163 123))))
 
 (desktop-create-buffer 208
-  "/home/shyam/project/code/practice/sqlalchemy-tutorial.py"
-  "sqlalchemy-tutorial.py"
-  'python-mode
-  '(eldoc-mode undo-tree-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode auto-revert-mode)
-  2847
-  '(2847 nil)
   nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23436 45539 699595 41000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (2847 2847 2702 2847 2844 2285 2864 760 760 2005 759 759 741 845 2864 1292))))
+  "notes"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  224
+  '(224 nil)
+  t
+  '("/home/shyam/Documents/notes/")
+  '((buffer-display-time 23770 25693 354685 945000) (overwrite-mode))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/shyam/project/code/practice/test.org"
-  "test.org"
+  "/home/shyam/Documents/notes/server-security.org"
+  "server-security.org"
   'org-mode
-  '(undo-tree-mode evil-vimish-fold-mode)
-  50
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  854
+  '(854 nil)
+  nil
+  nil
+  '((buffer-display-time 23770 25693 804846 361000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (854))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/vdm-coefficient-api/code/analytics-api/resources.py"
+  "resources.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  441
+  '(2063 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23769 62786 829294 912000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (2063 2081 1 1435 1421 1560 1421 33 33 1435 1435 1435 1606 1560 2066 35))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/vdm-api/code/db_api.py"
+  "db_api.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  1
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 23436 40286 801602 795000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode) (truncate-lines . t))
-  '((mark-ring (1 1))))
->>>>>>> d0d32fa5dcc7c7faee0179fc08543caf00bdb441
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23769 15848 985568 959000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 2611 2611 15 15 1 1 2594 1 2681 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/vdm-coefficient-api/code/analytics-api/models.py"
+  "models.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  223
+  '(223 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23768 25381 757288 518000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (223 223 223 223 264 260 260 264 260 260 260 184 93))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/vdm-api/code/data_mapping.py"
+  "data_mapping.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23767 64291 881723 889000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/db_script.py"
+  "db_script.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  920
+  '(920 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23767 8066 647245 132000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (920 920 3074 3074 3708 5642 1 3029))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/db_cleanup.py"
+  "db_cleanup.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23766 28955 77718 690000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  nil
+  "analytics-api"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  302
+  '(nil nil)
+  t
+  '("/home/shyam/project/vdm-coefficient-api/code/analytics-api/")
+  '((buffer-display-time 23765 53453 781860 490000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "code"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  238
+  '(nil nil)
+  t
+  '("/home/shyam/project/vdm-coefficient-api/code/")
+  '((buffer-display-time 23765 50598 398540 810000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "vdm-coefficient-api"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  233
+  '(nil nil)
+  t
+  '("/home/shyam/project/vdm-coefficient-api/")
+  '((buffer-display-time 23765 50594 242923 222000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/app.js"
+  "app.js"
+  'js2-mode
+  '(undo-tree-mode ivy-mode company-mode yas-minor-mode evil-vimish-fold-mode js2-refactor-mode tern-mode flycheck-mode auto-revert-mode js2-imenu-extras-mode)
+  1887
+  '(1887 nil)
+  nil
+  nil
+  '((buffer-display-time 23765 43367 237905 477000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1887 1887 1440 1440 3975 1862 1873 807 2943 2943 2943 1210 807 1062 1062 1062))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/vdm_api/db_api.py"
+  "db_api.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  790
+  '(790 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23765 19463 611089 155000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (790 790 790 648 589 647 1 1 1 4249 4326 4326 3308 3308 3020 3020))))
+
+(desktop-create-buffer 208
+  "/home/shyam/experiments/build-lisp/hello_world.c"
+  "hello_world.c"
+  'c-mode
+  '(abbrev-mode undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  94
+  '(94 nil)
+  nil
+  nil
+  '((buffer-display-time 23765 19464 254379 554000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (21 35))))
+
+(desktop-create-buffer 208
+  "/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/index.html"
+  "index.html"
+  'web-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  1490
+  '(1490 nil)
+  nil
+  nil
+  '((buffer-display-time 23764 25723 591653 796000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (1490 1421 1547 1 429 429 429 429 429 1))))
+
+(desktop-create-buffer 208
+  "/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/style.css"
+  "style.css"
+  'css-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  164
+  '(129 nil)
+  nil
+  nil
+  '((buffer-display-time 23764 25726 969528 915000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (391 1055 1945 2345 2345 1166 2948 1620 479))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/test.js"
+  "test.js"
+  'js2-mode
+  '(undo-tree-mode ivy-mode company-mode yas-minor-mode evil-vimish-fold-mode js2-refactor-mode tern-mode flycheck-mode js2-imenu-extras-mode)
+  1069
+  '(1069 nil)
+  nil
+  nil
+  '((buffer-display-time 23763 31271 346796 234000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (1069 106 106 106 106 106 1 3543 3544 2904 2904 3545 3547 3308 3547 2904))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/queue-implementation.py"
+  "queue-implementation.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode)
+  704
+  '(704 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23763 31270 3695 990000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (704 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  nil
+  "starter"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  284
+  '(nil nil)
+  t
+  '("/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/starter/")
+  '((buffer-display-time 23758 37983 99733 949000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "4-DOM-pig-game"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  376
+  '(nil nil)
+  t
+  '("/home/shyam/course/javascript/complete-javascript-course/4-DOM-pig-game/")
+  '((buffer-display-time 23758 37959 788656 203000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "complete-javascript-course"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  395
+  '(268 nil)
+  t
+  '("/home/shyam/course/javascript/complete-javascript-course/")
+  '((buffer-display-time 23758 37957 367513 628000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "javascript"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  226
+  '(nil nil)
+  t
+  '("/home/shyam/course/javascript/")
+  '((buffer-display-time 23758 37955 794160 67000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/shyam/experiments/tkinter/banas.py"
+  "banas.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode)
+  86
+  '(132 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23756 40168 134858 189000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (86 146 15 20 21 47 47))))
+
+(desktop-create-buffer 208
+  "/home/shyam/course/javascript/complete-javascript-course/2-JS-basics/starter/index.html"
+  "index.html"
+  'js-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode auto-revert-mode)
+  228
+  '(256 nil)
+  nil
+  nil
+  '((buffer-display-time 23753 42207 404044 49000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (256 161 228))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/first.js"
+  "first.js"
+  'js2-mode
+  '(undo-tree-mode ivy-mode company-mode yas-minor-mode evil-vimish-fold-mode js2-refactor-mode tern-mode flycheck-mode js2-imenu-extras-mode)
+  39
+  '(39 nil)
+  nil
+  nil
+  '((buffer-display-time 23752 18646 411374 904000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (39 205 205 268 236 268 107 268 115 119 268 30 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/update-script-msc/update-gid.py"
+  "update-gid.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode)
+  784
+  '(784 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23752 18651 866234 810000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (784 285 150 341))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/function_variable_passing_test.js"
+  "function_variable_passing_test.js"
+  'js2-mode
+  '(undo-tree-mode ivy-mode company-mode yas-minor-mode evil-vimish-fold-mode js2-refactor-mode tern-mode flycheck-mode js2-imenu-extras-mode)
+  110
+  '(116 nil)
+  nil
+  nil
+  '((buffer-display-time 23750 28942 941217 40000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "javascript-practice"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  370
+  '(370 nil)
+  t
+  '("/home/shyam/project/code/practice/javascript-practice/")
+  '((buffer-display-time 23750 22848 794623 672000) (overwrite-mode))
+  '((mark-ring (250))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/function_variable_passing_test.py"
+  "function_variable_passing_test.py"
+  'python-mode
+  '(eldoc-mode undo-tree-mode ivy-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode evil-vimish-fold-mode flycheck-mode)
+  81
+  '(81 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23750 9962 142432 144000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/shyam/sed_script"
+  "sed_script"
+  'fundamental-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode)
+  48
+  '(243 nil)
+  nil
+  nil
+  '((buffer-display-time 23749 12121 77473 331000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (48 48 48 48 48 144 144 243 146 146 146 146 1))))
+
+(desktop-create-buffer 208
+  "/home/shyam/sed_test"
+  "sed_test"
+  'fundamental-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23748 49242 517274 206000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1 1 45))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/debug-test.js"
+  "debug-test.js"
+  'js2-mode
+  '(undo-tree-mode ivy-mode company-mode yas-minor-mode evil-vimish-fold-mode js2-refactor-mode tern-mode flycheck-mode js2-imenu-extras-mode)
+  409
+  '(409 nil)
+  nil
+  nil
+  '((buffer-display-time 23748 31576 781753 49000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (409 1 52 1))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/practice9.html"
+  "practice9.html"
+  'js-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  128
+  '(265 nil)
+  nil
+  nil
+  '((buffer-display-time 23746 18453 598489 727000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (199 224 127))))
+
+(desktop-create-buffer 208
+  nil
+  "practice"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  1234
+  '(nil nil)
+  t
+  '("/home/shyam/project/code/practice/")
+  '((buffer-display-time 23745 27840 935755 733000) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/practice8.html"
+  "practice8.html"
+  'mhtml-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  1
+  '(229 nil)
+  nil
+  nil
+  '((buffer-display-time 23745 27840 47547 905000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (229 120 128 146))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/practice7.html"
+  "practice7.html"
+  'js-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23744 22518 255876 364000) (buffer-file-coding-system . iso-latin-1-unix) (overwrite-mode))
+  '((mark-ring (359 359 1167 806 1168 1170 844 844 363 363 367 380 380 382 359 846))))
+
+(desktop-create-buffer 208
+  "/home/shyam/project/code/practice/javascript-practice/practice.html"
+  "practice.html"
+  'mhtml-mode
+  '(undo-tree-mode ivy-mode evil-vimish-fold-mode flycheck-mode)
+  8
+  '(8 nil)
+  nil
+  nil
+  '((buffer-display-time 23743 61280 492466 851000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (290))))
+
+(desktop-create-buffer 208
+  nil
+  "code"
+  'dired-mode
+  '(ivy-mode evil-vimish-fold-mode)
+  570
+  '(nil nil)
+  t
+  '("/home/shyam/project/code/")
+  '((buffer-display-time 23743 34638 748586 671000) (overwrite-mode))
+  '((mark-ring nil)))
 

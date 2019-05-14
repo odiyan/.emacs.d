@@ -30,13 +30,14 @@
  '(custom-enabled-themes (quote (wheatgrass)))
  '(package-selected-packages
    (quote
-    (xref-js2 js2-refactor js2-mode counsel flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
+    (pylint company-tern 0xc js-comint xref-js2 js2-refactor js2-mode counsel flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "green" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 1 :width normal :foundry "default" :family "default"))))
  '(comint-highlight-prompt ((t (:inherit minibuffer-prompt :foreground "brightred"))))
  '(custom-comment-tag ((t (:foreground "cyan"))))
  '(custom-face-tag ((t (:foreground "brightblack"))))
@@ -112,3 +113,25 @@
 ;; prevent demoting heading also shifting text inside sections
 (setq org-adapt-indentation nil)
 
+(require 'js-comint)
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(require 'company)
+(require 'company-tern)
+
+(add-to-list 'company-backends 'company-tern)
+(add-hook 'js2-mode-hook (lambda ()
+                           (tern-mode)
+                           (company-mode)))
+                           
+;; Disable completion keybindings, as we use xref-js2 instead
+(define-key tern-mode-keymap (kbd "M-.") nil)
+(define-key tern-mode-keymap (kbd "M-,") nil)

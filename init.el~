@@ -23,10 +23,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes nil)
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(custom-enabled-themes (quote (wheatgrass)))
  '(package-selected-packages
    (quote
-    (xref-js2 js2-refactor js2-mode counsel flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
+    (0xc js-comint xref-js2 js2-refactor js2-mode counsel flycheck evil-vimish-fold vimish-fold ess elpygen evil pyvenv elpy magit emmet-mode web-mode jinja2-mode markdown-mode racket-mode ## sml-mode)))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -38,7 +42,8 @@
  '(custom-face-tag ((t (:foreground "brightblack"))))
  '(dired-directory ((t (:foreground "white"))))
  '(evil-ex-lazy-highlight ((t (:background "black" :foreground "brightwhite"))))
- '(flycheck-warning ((t (:inherit warning :foreground "black" :underline t))))
+ '(flycheck-warning ((t (:inherit warning :underline t))))
+ '(flymake-error ((t (:foreground "brightyellow"))))
  '(font-lock-comment-delimiter-face ((t (:inherit default))))
  '(font-lock-comment-face ((t (:foreground "brightblue"))))
  '(font-lock-function-name-face ((t (:foreground "brightred"))))
@@ -100,3 +105,11 @@
 `(add-hook 'auto-save-hook 'org-save-all-org-buffers)`
 (setq auto-save-file-name-transforms
   `((".*" "~/.emacs-saves/" t)))
+
+;; set maximum indentation for description lists
+(setq org-list-description-max-indent 5)
+
+;; prevent demoting heading also shifting text inside sections
+(setq org-adapt-indentation nil)
+
+(require 'js-comint)
